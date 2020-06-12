@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
 # This is my custom heading
 
