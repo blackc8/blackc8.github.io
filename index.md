@@ -1,6 +1,3 @@
----
-title-heading: false
----
 
 # This is my custom heading
 
