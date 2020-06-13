@@ -1,23 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  {% include head.html %}
+<!doctype>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+  </head>
   <body>
-    <div id="root">
-          <div class="content">
-            {{ content }}
-          </div>
-    </div>
-    <script src="{{ 'assets/highlight.min.js' | relative_url }}"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script type="text/javascript">
-      window.onload = function () {
-        var routes = document.querySelector('.routes')
-        var menuIcon = document.querySelector('.menu-icon')
-        menuIcon.addEventListener("click", function(e) {
-          e.preventDefault()
-          routes.classList.toggle('open')
-        });
-      };
-    </script>
+    {{ content }}
   </body>
 </html>
