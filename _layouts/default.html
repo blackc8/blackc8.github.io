@@ -6,4 +6,16 @@
   <body>
     {{ content }}
   </body>
+    <script src="{{ 'assets/highlight.min.js' | relative_url }}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script type="text/javascript">
+      window.onload = function () {
+        var routes = document.querySelector('.routes')
+        var menuIcon = document.querySelector('.menu-icon')
+        menuIcon.addEventListener("click", function(e) {
+          e.preventDefault()
+          routes.classList.toggle('open')
+        });
+      };
+    </script>o
 </html>
