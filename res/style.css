@@ -1,9 +1,9 @@
 html{
-    background:white;
+    background:#121212;
 }
-#banner-container{
+#container{
     margin:100px 30px;
-    color: black;
+    color: white;
     font-weight:bold;
     font-family: Consolas,monaco,monospace;
 }
@@ -19,7 +19,7 @@ html{
 .blinking-cursor {
   font-weight: 100;
   font-size: 100px;
-  color: white;
+  color: #2E3D48;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
   -ms-animation: 1s blink step-end infinite;
@@ -32,7 +32,7 @@ html{
     color: transparent;
   }
   50% {
-    color: black;
+    color: white;
   }
 }
 
@@ -41,7 +41,7 @@ html{
     color: transparent;
   }
   50% {
-    color: black;
+    color: white;
   }
 }
 
@@ -50,7 +50,7 @@ html{
     color: transparent;
   }
   50% {
-    color: black;
+    color: white ;
   }
 }
 
@@ -59,7 +59,7 @@ html{
     color: transparent;
   }
   50% {
-    color: black;
+    color: white;
   }
 }
 
@@ -68,7 +68,6 @@ html{
     color: transparent;
   }
   50% {
-    color: black;
+    color: white;
   }
-
 }
